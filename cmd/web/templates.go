@@ -1,10 +1,11 @@
 package main
 
 import (
-	"cmgsoftware/snippetbox/pkg/models"
 	"html/template"
 	"path/filepath"
 	"time"
+
+	"cmgsoftware/snippetbox/pkg/models"
 )
 
 type templateData struct {
